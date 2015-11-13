@@ -11,9 +11,9 @@
 			"",
 			"\t}",
 			"",
-			"angular",
-			"\t.module('${Module}')",
-			"\t.controller('${Controller}Controller', ${Controller}Controller);",
+			"\tangular",
+			"\t\t.module('${Module}')",
+			"\t\t.controller('${Controller}Controller', ${Controller}Controller);",
 			"}"
 		]
 	},
@@ -24,7 +24,6 @@
 			"\t'use strict';",
 			"",
 			"\texport interface I${Service} {",
-			"\t\t${serviceFn}: (${dependency1}:${dependency1Type}) => ${returnType};",
 			"\t}",
 			"\texport class ${Service} implements I${Service} {",
 			"\t\tstatic $inject: Array<string> = ['${dependency1}'];",
@@ -32,9 +31,9 @@
 			"",
 			"\t}",
 			"",
-			"angular",
-			"\t.module('${Module}')",
-			"\t.service('${Service}', ${Service});",
+			"\tangular",
+			"\t\t.module('${Module}')",
+			"\t\t.service('${Service}', ${Service});",
 			"}"
 		]
 	},
