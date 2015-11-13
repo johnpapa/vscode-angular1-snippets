@@ -1,2 +1,4 @@
-# vscode-angular1-snippets
-vscode-angular1-snippets
+# VS Code Angular 1 Snippets
+
+
+
