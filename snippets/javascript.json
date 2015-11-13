@@ -39,8 +39,9 @@
 			"\t\tthis.${exposedFn} = ${exposedFn};",
 			"\t\t$0",
 			"\t\t////////////////",
+			"",
 			"\t\tfunction ${exposedFn}() { }",
-			"\t}",
+			"\t\t}",
 			"})();"
 		],
 		"description": "Angular 1 service"
