@@ -24,4 +24,6 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to a
 5. Choose the extension
 6. Reload Visual Studio Code.
 
+![Install Extension](images/install-extension.gif)
+
 Author
