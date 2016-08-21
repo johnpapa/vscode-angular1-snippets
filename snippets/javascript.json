@@ -146,6 +146,29 @@
 		],
 		"description": "Angular 1 directive"
 	},
+	"Angular Filter": {
+		"prefix": "ng1filter",
+		"body": [
+			"(function() {",
+			"'use strict';",
+			"",
+			"\tangular",
+			"\t\t.module('${Module}')",
+			"\t\t.filter('${Filter}', ${Filter});",
+			"",
+			"\tfunction ${Filter}() {",
+			"\t\treturn ${Filter}Filter;",
+			"",
+			"\t\t////////////////",
+			"",
+			"\t\tfunction ${Filter}Filter(${Params}) {",
+			"\t\t\treturn ${Params};",
+			"\t\t}",
+			"\t}",
+			"})();"
+		],
+		"description": "Angular 1 filter"
+	},
 	"Angular Module": {
 		"prefix": "ng1module",
 		"body": [

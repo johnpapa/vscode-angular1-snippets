@@ -14,6 +14,7 @@ ng1directive  // creates an Angular directive
 ng1factory    // creates an Angular factory
 ng1module     // creates an Angular module
 ng1service    // creates an Angular service
+ng1filter     // creates an Angular filter
 ```
 
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
