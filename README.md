@@ -8,6 +8,7 @@ This extension for Visual Studio Code adds snippets for Angular 1 for JavaScript
 Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ```javascript
+ng1component  // creates an Angular component
 ng1controller // creates an Angular controller
 ng1directive  // creates an Angular directive
 ng1factory    // creates an Angular factory

@@ -71,6 +71,43 @@
 		],
 		"description": "Angular 1 factory"
 	},
+	"Angular Component": {
+		"prefix": "ng1component",
+		"body": [
+			"(function() {",
+			"'use strict';",
+			"",
+			"\t// Usage:",
+			"\t// ",
+			"\t// Creates:",
+			"\t// ",
+			"",
+			"\tangular",
+			"\t\t.module('${Module}')",
+			"\t\t.component('${Component}', {",
+			"\t\t\ttemplate:'${htmlTemplate}',",
+			"\t\t\t//templateUrl: '${templateUrl}',",
+			"\t\t\tcontroller: ${Controller}Controller,",
+			"\t\t\tbindings: {",
+			"\t\t\t\t${Binding}: '=',",
+			"\t\t\t},",
+			"\t\t});",
+			"",
+			"\t${Controller}Controller.$inject = ['${dependency1}'];",
+			"\tfunction ${Controller}Controller(${dependency1}) {",
+			"\t\tvar $ctrl = this;",
+			"\t\t$0",
+			"",
+			"\t\t////////////////",
+			"",
+			"\t\t$ctrl.$onInit = function() { };",
+			"\t\t$ctrl.$onChanges = function(changesObj) { };",
+			"\t\t$ctrl.$onDestory = function() { };",
+			"\t}",
+			"})();"
+		],
+		"description": "Angular 1 component (1.5+ only)"
+	},
 	"Angular Directive": {
 		"prefix": "ng1directive",
 		"body": [
