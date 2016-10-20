@@ -3,7 +3,7 @@
 		"prefix": "ng1controller",
 		"body": [
 			"(function() {",
-			"'use strict';",
+			"\t'use strict';",
 			"",
 			"\tangular",
 			"\t\t.module('${Module}')",
@@ -28,7 +28,7 @@
 		"prefix": "ng1service",
 		"body": [
 			"(function() {",
-			"'use strict';",
+			"\t'use strict';",
 			"",
 			"\tangular",
 			"\t\t.module('${Module}')",
@@ -50,7 +50,7 @@
 		"prefix": "ng1factory",
 		"body": [
 			"(function() {",
-			"'use strict';",
+			"\t'use strict';",
 			"",
 			"\tangular",
 			"\t\t.module('${Module}')",
@@ -75,7 +75,7 @@
 		"prefix": "ng1component",
 		"body": [
 			"(function() {",
-			"'use strict';",
+			"\t'use strict';",
 			"",
 			"\t// Usage:",
 			"\t// ",
@@ -150,7 +150,7 @@
 		"prefix": "ng1filter",
 		"body": [
 			"(function() {",
-			"'use strict';",
+			"\t'use strict';",
 			"",
 			"\tangular",
 			"\t\t.module('${Module}')",
