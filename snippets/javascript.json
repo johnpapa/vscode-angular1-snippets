@@ -135,7 +135,7 @@
 		"prefix": "ng1filter",
 		"body": [
 			"(function() {",
-			"\t'use strict';",			
+			"\t'use strict';",
 			"",
 			"\tangular",
 			"\t\t.module('${Module}')",
