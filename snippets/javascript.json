@@ -44,7 +44,7 @@
 		"prefix": "ng1factory",
 		"body": [
 			"(function() {",
-			"\t'use strict';",			
+			"\t'use strict';",
 			"",
 			"\tangular",
 			"\t\t.module('${Module}')",
