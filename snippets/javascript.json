@@ -102,7 +102,7 @@
 			"",
 			"\t\t$ctrl.$onInit = function() { };",
 			"\t\t$ctrl.$onChanges = function(changesObj) { };",
-			"\t\t$ctrl.$onDestory = function() { };",
+			"\t\t$ctrl.$onDestroy = function() { };",
 			"\t}",
 			"})();"
 		],
