@@ -88,6 +88,7 @@
 			"\t\t\ttemplate:'${htmlTemplate}',",
 			"\t\t\t//templateUrl: '${templateUrl}',",
 			"\t\t\tcontroller: ${Controller}Controller,",
+			"\t\t\tcontrollerAs: '$ctrl',",
 			"\t\t\tbindings: {",
 			"\t\t\t\t${Binding}: '=',",
 			"\t\t\t},",
