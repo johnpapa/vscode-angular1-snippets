@@ -2,48 +2,48 @@
 	"Angular Controller": {
 		"prefix": "ng1controller",
 		"body": [
-			"namespace ${module} {",
+			"namespace ${1:module} {",
 			"\t'use strict';",
 			"",
-			"\texport class ${Controller}Controller {",
-			"\t\tstatic $inject: Array<string> = ['${dependency1}'];",
-			"\t\tconstructor(private ${dependency1}: ${dependency1Type}) {}",
+			"\texport class ${2:Controller}Controller {",
+			"\t\tstatic \\$inject: Array<string> = ['${3:dependency1}'];",
+			"\t\tconstructor(private ${3:dependency1}: ${4:dependency1Type}) {}",
 			"",
 			"\t}",
 			"",
 			"\tangular",
-			"\t\t.module('${Module}')",
-			"\t\t.controller('${Controller}Controller', ${Controller}Controller);",
+			"\t\t.module('${5:Module}')",
+			"\t\t.controller('${2:Controller}Controller', ${2:Controller}Controller);",
 			"}"
 		]
 	},
 	"Angular Service": {
 		"prefix": "ng1service",
 		"body": [
-			"namespace ${module} {",
+			"namespace ${1:module} {",
 			"\t'use strict';",
 			"",
-			"\texport interface I${Service} {",
+			"\texport interface I${2:Service} {",
 			"\t}",
-			"\texport class ${Service} implements I${Service} {",
-			"\t\tstatic $inject: Array<string> = ['${dependency1}'];",
-			"\t\tconstructor(private ${dependency1}: ${dependency1Type}) {}",
+			"\texport class ${2:Service} implements I${2:Service} {",
+			"\t\tstatic \\$inject: Array<string> = ['${3:dependency1}'];",
+			"\t\tconstructor(private ${3:dependency1}: ${4:dependency1Type}) {}",
 			"",
 			"\t}",
 			"",
 			"\tangular",
-			"\t\t.module('${Module}')",
-			"\t\t.service('${Service}', ${Service});",
+			"\t\t.module('${5:Module}')",
+			"\t\t.service('${2:Service}', ${2:Service});",
 			"}"
 		]
 	},
 	"Angular Module": {
 		"prefix": "ng1module",
 		"body": [
-			"namespace ${module} {",
+			"namespace ${1:module} {",
 			"\t'use strict';",
 			"",
-			"\tangular.module('${module}', [",
+			"\tangular.module('${2:Module}', [",
 			"\t\t$0",
 			"\t]);",
 			"}"
