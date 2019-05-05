@@ -1,52 +1,52 @@
 {
-	"Angular Controller": {
-		"prefix": "ng1controller",
-		"body": [
-			"namespace ${1:module} {",
-			"\t'use strict';",
-			"",
-			"\texport class ${2:Controller}Controller {",
-			"\t\tstatic \\$inject: Array<string> = ['${3:dependency1}'];",
-			"\t\tconstructor(private ${3:dependency1}: ${4:dependency1Type}) {}",
-			"",
-			"\t}",
-			"",
-			"\tangular",
-			"\t\t.module('${5:Module}')",
-			"\t\t.controller('${2:Controller}Controller', ${2:Controller}Controller);",
-			"}"
-		]
-	},
-	"Angular Service": {
-		"prefix": "ng1service",
-		"body": [
-			"namespace ${1:module} {",
-			"\t'use strict';",
-			"",
-			"\texport interface I${2:Service} {",
-			"\t}",
-			"\texport class ${2:Service} implements I${2:Service} {",
-			"\t\tstatic \\$inject: Array<string> = ['${3:dependency1}'];",
-			"\t\tconstructor(private ${3:dependency1}: ${4:dependency1Type}) {}",
-			"",
-			"\t}",
-			"",
-			"\tangular",
-			"\t\t.module('${5:Module}')",
-			"\t\t.service('${2:Service}', ${2:Service});",
-			"}"
-		]
-	},
-	"Angular Module": {
-		"prefix": "ng1module",
-		"body": [
-			"namespace ${1:module} {",
-			"\t'use strict';",
-			"",
-			"\tangular.module('${2:Module}', [",
-			"\t\t$0",
-			"\t]);",
-			"}"
-		]
-	}
+  "Angular Controller": {
+    "prefix": "ng1controller",
+    "body": [
+      "namespace ${1:module} {",
+      "\t'use strict';",
+      "",
+      "\texport class ${2:Controller}Controller {",
+      "\t\tstatic \\$inject: Array<string> = ['${3:dependency1}'];",
+      "\t\tconstructor(private ${3:dependency1}: ${4:dependency1Type}) {}",
+      "",
+      "\t}",
+      "",
+      "\tangular",
+      "\t\t.module('${5:Module}')",
+      "\t\t.controller('${2:Controller}Controller', ${2:Controller}Controller);",
+      "}"
+    ]
+  },
+  "Angular Service": {
+    "prefix": "ng1service",
+    "body": [
+      "namespace ${1:module} {",
+      "\t'use strict';",
+      "",
+      "\texport interface I${2:Service} {",
+      "\t}",
+      "\texport class ${2:Service} implements I${2:Service} {",
+      "\t\tstatic \\$inject: Array<string> = ['${3:dependency1}'];",
+      "\t\tconstructor(private ${3:dependency1}: ${4:dependency1Type}) {}",
+      "",
+      "\t}",
+      "",
+      "\tangular",
+      "\t\t.module('${5:Module}')",
+      "\t\t.service('${2:Service}', ${2:Service});",
+      "}"
+    ]
+  },
+  "Angular Module": {
+    "prefix": "ng1module",
+    "body": [
+      "namespace ${1:module} {",
+      "\t'use strict';",
+      "",
+      "\tangular.module('${2:Module}', [",
+      "\t\t$0",
+      "\t]);",
+      "}"
+    ]
+  }
 }

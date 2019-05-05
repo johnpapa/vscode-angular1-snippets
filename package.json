@@ -1,31 +1,40 @@
 {
-    "name": "Angular1",
-    "publisher": "johnpapa",
-    "displayName": "Angular 1 JavaScript and TypeScript Snippets",
-    "description": "Angular 1 JavaScript and TypeScript snippets",
-    "icon": "images/angular-shield.png",
-    "galleryBanner": {
-        "color": "#0273D4",
-        "theme": "dark"
-    },
-    "license": "SEE LICENSE IN LICENSE.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/johnpapa/vscode-angular1-snippets.git"
-    },
-    "version": "0.2.0",
-    "engines": { "vscode": "0.10.x" },
-    "categories": ["Snippets"],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/javascript.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/typescript.json"
-            }
-        ]
-    }
+  "name": "Angular1",
+  "publisher": "johnpapa",
+  "displayName": "Angular 1 JavaScript and TypeScript Snippets",
+  "description": "Angular 1 JavaScript and TypeScript snippets",
+  "icon": "images/angular-shield.png",
+  "galleryBanner": {
+    "color": "#0273D4",
+    "theme": "dark"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnpapa/vscode-angular1-snippets.git"
+  },
+  "version": "0.2.1",
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "extensionKind": "ui",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      }
+    ]
+  }
 }
